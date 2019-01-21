@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Registered Email ID"
+        android:textAlignment="center"
+        android:layout_marginTop="88dp"
+        android:layout_marginBottom="36dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Password"
+        android:textAlignment="center"
+        android:layout_marginBottom="36dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/White" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:background="@color/colorPrimary"
+        android:text="Sign Up"
+        android:textAlignment="center"
+        android:textColor="@color/White" />
+
+</LinearLayout>

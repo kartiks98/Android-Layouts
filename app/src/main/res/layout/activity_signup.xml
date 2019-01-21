@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Full Name"
+        android:textAlignment="center"
+        android:layout_marginTop="56dp"
+        android:layout_marginBottom="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Email ID"
+        android:textAlignment="center"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Contact number"
+        android:textAlignment="center"
+        android:layout_margin="8dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Contact number"
+        android:inputType="number"
+        android:textAlignment="center"
+        android:layout_margin="8dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textAlignment="center"
+        android:textColor="@color/White" />
+</LinearLayout>
