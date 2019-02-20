@@ -14,16 +14,17 @@
             android:layout_height="wrap_content">
 
             <ImageView
+                android:id="@+id/image_background"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:adjustViewBounds="true"
-                android:src="@drawable/background" />
+                android:src="@drawable/image" />
 
             <ImageView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="48dp"
-                android:src="@drawable/logo" />
+                android:src="@drawable/image" />
 
         </FrameLayout>
 
